@@ -1,0 +1,61 @@
+/*Start header part*/
+ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+   background-color: rgb(235, 27, 224);
+   font-size: 30px;
+}
+
+li {
+    float: left;
+    padding: 14px 16px;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+
+}
+
+li:hover{
+    background-color: coral;
+}
+/*End header part*/
+
+body{
+   background-color: yellow;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    float: center;
+}
+.outer-box{
+    background-color: lime;
+}
+.inner-box{
+    background-color: navy;
+    transform: scale(0.5);
+}
+
+.transition{
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+    background-color: black;
+    transition: width 6s;
+    
+}
+
+.transition:hover{
+    width: 300px;
+    
+}
+h1{
+    color: chartreuse;
+    text-align: center;
+}
